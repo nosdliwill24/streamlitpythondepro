@@ -88,7 +88,7 @@ if 'somente_mgi' not in st.session_state:
     st.session_state.somente_mgi = []
 
 # Header principal
-st.markdown('<h1 class="main-header">🔧 Depro App - Ferramentas de Processamento</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">🔧 Depro App - Demai produção </h1>', unsafe_allow_html=True)
 
 # Sidebar para navegação
 st.sidebar.title("🎯 Navegação")
@@ -537,4 +537,5 @@ st.markdown("""
     <p>Ferramenta desenvolvida para processamento eficiente de dados de comunicadores</p>
     <p><em>Versão Streamlit - Interface moderna e responsiva</em></p>
 </div>
+
 """, unsafe_allow_html=True)
